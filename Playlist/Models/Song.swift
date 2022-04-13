@@ -15,7 +15,7 @@ class Song: Codable {
         self.songTitle = title
         self.songArtist = artist
     }
-}//end of class
+}//End of class
 
 extension Song: Equatable{
     static func == (lhs: Song, rhs: Song) -> Bool{
